@@ -6,5 +6,6 @@ int sum(int a,int b){
 
 int main(){
 
+sum(5,6);
 return 0;
 }
