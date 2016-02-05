@@ -1,0 +1,41 @@
+
+Steps to Submit Manually : 
+
+On Github.com :
+->Create a account on github.com 
+->Create a repository called mrndmocktest_feb21 
+
+On your PC :
+-> Check if git command is executable from command prompt or not . 
+
+-> If it is not executable ,or shows git is not recognized as a internal or external command , Add git to your environment path .
+
+->Once git command is working ,Go to next steps 
+
+->Extract the zip given mrndmocktest_feb21.zip 
+
+->Go to the extracted folder and run the following commands 
+
+git init
+git remote remove origin
+git remote add origin <your repo link>
+
+#Example :git remote add origin https://github.com/souravabhijith/mrndmocktest_feb21.git
+
+git pull origin master 
+
+#Note : Git pull will fail for an empty repo ,Its not a problem ,continue with below commands .
+
+git add .
+git commit -m "Test finished"
+git push origin master
+
+#Note : Enter github username and password when asked 
+
+Check on your github account ,whether All the questions have been uploaded or not .
+
+For Resubmission : 
+Only run the following commands : 
+git add .
+git commit -m "Test finished"
+git push origin master
